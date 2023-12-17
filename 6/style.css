@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    border: 2px solid black;
+    width: 700px;
+    height: 600px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.block {
+    background-color: red;
+    width: 153px;
+    height: 100px;
+   padding: 0 40px;
+   margin: 25px;
+}
+
+.open {
+    background-color: blue;
+    width: 150px;
+    height: 370px;
+   margin: 25px;
+}
+
+.col {
+    background-color: green;
+    width: 430px;
+    height: 330px;
+    margin-left: 230px;
+    margin-top: -545px;
+}
+.book{
+    background-color: yellow;
+    width: 430px;
+    height: 130px;
+    margin-top: 30px;
+    margin-left: 228px;
+}
